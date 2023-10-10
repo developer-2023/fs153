@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays basics</title>
+</head>
+<body>
+
+    <script>
+        let names = ["Ann", "Bett", "Clay"];
+        console.log(names); // ['Ann', 'Bett', 'Clay']
+        console.log(names[0]); // Ann
+        console.log(names[names.length-1]); // Clay
+        
+        names[1] = "Bob";
+        console.log(names); // ['Ann', 'Bob', 'Clay']
+
+        names[4] = "Eva";
+        console.log(names); // ['Ann', 'Bob', 'Clay', empty, 'Eva']
+
+        let data = [1, true, {a: "test"}, "Carol"];
+        console.log(data);
+    </script>
+</body>
+</html>
